@@ -1,0 +1,19 @@
+<view>
+  <view class="page-section">
+    <view class="page-section-title"><text>描述</text></view>
+    <view class="textarea-wrp">
+      <textarea bindblur="bindTextBlur"  style="height: 7em" bindfocus="navigateToRichText" placeholder="{{focus}}\n{{textArr}}"></textarea>
+    </view>
+    </view>
+    <!-- 图片 -->
+    <view class="weui-grids">
+    <block>
+      <image class="plus" wx:if="{{imageArr.length==0}}" src="../../static/timg.jpg" bindtap="changeImage" style=""></image>
+      <block wx:for="{{imageArr}}" wx:key="*this">
+          <view class="weui-grid" hover-class="weui-grid_active">
+                  <image class="weui-grid__icon" src="{{item}}"  bindtap="changeImage"/>
+          </view>
+        </block>
+      </block>
+    </view>
+</view>

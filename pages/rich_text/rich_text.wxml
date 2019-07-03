@@ -1,0 +1,2 @@
+<!--pages/rich_text/rich_text.wxml-->
+<richText bind:getDataList="saveData"></richText>

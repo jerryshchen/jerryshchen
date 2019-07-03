@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/rich_text/rich_text"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
