@@ -1,3 +1,2 @@
 # jerryshchen
-Some notes about JavaScript 
-hello world
+微信小程序富文本框
